@@ -69,9 +69,3 @@ if __name__ == '__main__':
     app.run(port=5000, debug=True)
 
 
-
-action
-is_audio_only
-recording_id
-phone_number
-meet_url
