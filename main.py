@@ -51,12 +51,12 @@ def recording_time():
         recording_time = recorder.get_recording_time_in_seconds()
         return json.dumps({
             'recording_id': recorder.recording_id,
-            'recording_time_is_seconds': recording_time,
+            'recording_time_in_seconds': recording_time,
             'status': 'recording'
         }), 200
     else:
         return json.dumps({
-            'recording_time_is_seconds': 0,
+            'recording_time_in_seconds': 0,
             'status': 'resting'
         }), 200
 

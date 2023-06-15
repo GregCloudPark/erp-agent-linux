@@ -1,6 +1,10 @@
 Criei um flask aqui que simula o que é necessário para a comunicação. Nesse caso não tem botões, só as rotas mesmo.
 
 
+
+http://127.0.0.1:5000/recordingTime
+- não exige parâmetros. E retorna recording_time_in_seconds
+
 http://127.0.0.1:5000/record
 - action: "start" para começar a gravar. "stop" para parar
 - is_audio_only: boolean. Para gravar só o audio.
